@@ -1,0 +1,15 @@
+{
+  "name": "clojurescript-static-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx shadow-cljs watch app",
+    "build": "npx shadow-cljs release app",
+    "clean": "rm -rf public/js .shadow-cljs"
+  },
+  "devDependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "shadow-cljs": "2.28.23"
+  }
+}
